@@ -1,0 +1,197 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/feedback.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/feedbackjs.js"></script>
+
+  </head>
+
+  <body>
+    <nav id="myNavBar" class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-right">
+          <li><p class="navbar-text">TROY</p></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user glyphicon-ring" aria-hidden="true"></span><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Activity</a></li>
+              <li><a href="#">Settings</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul id="file-hierarchy" class="nav navbar-nav navbar-left">
+          <li><p class="navbar-text"><a href="#">Home  </a><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></p></li>
+          <li><p class="navbar-text"><a data-toggle="modal" data-target="#save-and-quit-modal" href="#">Assignment 2  </a><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></p></li>
+          <li><p class="navbar-text" style=" opacity:0.9">Questions</p></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <!-- <button id="save-and-quit-button" type="button" class="btn btn-lg" data-toggle="modal" data-target="#save-and-quit-modal">Save and Quit</button>
+      <button id="submit-button" type="button" class="btn btn-lg" data-toggle="modal" data-targets="#submit-modal">Submit</button> -->
+    </div>
+
+    <div id="wrapper">
+      <!--sidebar -->
+      <div id="sidebar-wrapper" style="margin-top:0; padding-top:0">
+        <ul class="sidebar-nav" style="margin-bottom:0">
+          <li class="sidebar-brand">
+           <h3 style="font-size:17px; text-indent:45; margin-bottom:0">
+              GO TO:<hr / style="margin-bottom:10px; margin-top:5px">
+           </h3>
+         </li>
+          <li id="q1" class= "active"><a href="#">Question 1</a></li>
+          <li id="q2"><a href="#">Question 2</a></li>
+          <li id="q3"><a href="#">Question 3</a></li>
+          <li id="q4"><a href="#">Question 4</a></li>
+          <li id="q5"><a href="#">Question 5</a></li>
+          <li id="q6"><a href="#">Question 6</a></li>
+          <li id="q7"><a href="#">Question 7</a></li>
+          <li id="q8"><a href="#">Question 8</a></li>
+          <li id="q9"><a href="#">Question 9</a></li>
+          <li id="q10"><a href="#">Question 10</a></li>
+          <li id="q11"><a href="#">Question 11</a></li>
+          <li id="q12"><a href="#">Question 12</a></li>
+          <li id="q13"><a href="#">Question 13</a></li>
+          <li id="q14"><a href="#">Question 14</a></li>
+          <li id="q15"><a href="#">Question 15</a></li>
+        </ul>
+
+      </div>
+
+
+
+
+      <div id="content-wrapper" style="padding-top: 20px">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-sm-1">
+              <a href="#" class="btn hamburger-left" id="menu-toggle"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+            </div>
+
+
+            <div class="col-sm-10">
+              <!--case study box-->
+              <div class=" fix-case-question panel panel-default" id="case-panel">
+                <div class="panel-heading">
+                  <h3 class="panel-title">
+                    <a class="bold" data-toggle="collapse" href="#collapse">Case</a>
+                  </h3>
+                </div>
+                <div id="collapse" class="panel-collapse collapse collapse in">
+                  <div class=" text panel-body">
+                    Designed and built by Bernini between 1656 and 1667, during the pontificate of Alexander VII (1655-1667), the square is made up of two different areas. The first has a trapezoid shape, marked off by two straight closed and convergent arms on each side of the church square. The second area is elliptical and is surrounded by the two hemicycles of a four-row colonnade, because, as Bernini said, “considering that Saint Peter’s is almost the matrix of all the churches, its portico had to give an open-armed, maternal welcome to all Catholics, confirming their faith; to heretics, reconciling them with the Church; and to the infidels, enlightening them about the true faith.” Bernini had in fact designed a three-armed portico, but after Alexander VII’s death, construction of the portico was halted, and the third arm was never built. It would have enclosed the whole building and separated the ellipse from the “Borgo” quarter, thus creating a “surprise effect” for the pilgrim who suddenly found himself in the square. This effect was somewhat achieved by the buildings surrounding the square, the so-called “Spina di Borgo”, which naturally “closed in” the square. In 1950, Via della Conciliazione, a new, wide street leading to the Vatican Basilica, was opened. It amplifies the majestic view of Saint Peter’s dome, but it also profoundly modified Bernini’s original plan. The measurements of the square are impressive: it is 320 m deep, its diameter is 240 m and it is surrounded by 284 columns, set out in rows of four, and 88 pilasters. Around the year 1670, Bernini’s pupils built 140 statues of saints, 3.20 m high along the balustrade above the columns. On either side of the obelisk, which was moved to the middle of the square by Domenico Fontana in 1585, are two great fountains built by Bernini (1675) and Maderno (1614). Below, at the foot of the staircase in front of the basilica, the statues of Saint Peter and Saint Paul seem to welcome visitors.
+                  </div>
+                </div> <!-- case panel -->
+              </div>
+
+              <!--question box -->
+              <div class="row">
+                <div class="col-sm-12">
+
+                  <div class=" fix-case-question panel panel-default" id="question-panel">
+
+                    <div id="collapse-q" class="panel-collapse collapse collapse in">
+                      <div id="question-text" class="panel-body">
+                        <p class="bold" id="question-number" style="font-size:17px">
+                          Question 1
+                        </p>
+                        <span class="text question">hasellus accumsan ullamcorper metus vitae blandit. Curabitur tincidunt mauris in vehicula porttitor. Integer lacus est, molestie sit amet odio ut, vestibulum gravida nibh.<hr /></span>
+
+                        <p class="bold" style="font-size:17px">
+                          Enter your answer here:
+                        </p>
+                        <div class="form-group">
+                          <textarea class="text form-control" rows="6 " id="answer" style="margin-left:0"> The square is made up of two different areas. The first has a trapezoid shape, marked off by two straight closed and convergent arms on each side of the church square. The second area is elliptical and is surrounded by the two hemicycles of a four-row colonnade, because, as Bernini said, “considering that Saint Peter’s is almost the matrix of all the churches, its portico had to give an open-armed, maternal welcome to all Catholics, confirming their faith; to heretics, reconciling them with the Church; and to the infidels, enlightening them about the true faith.”</textarea>
+                        </div> <!-- answer input -->
+
+                      </div> <!-- case panel -->
+                    </div> <!--nested col -->
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            <div class="row">
+              <div class="col-sm-2">
+                <button id="previous-button" type="button" class="btn btn-lg btn-block" style="margin-left:12px" disabled >Previous Question</button>
+              </div>
+
+              <div class="col-sm-2 col-sm-push-2">
+                <button id="save-and-quit-button" type="button" class=" s-buttons btn btn-lg btn-block" data-toggle="modal" data-target="#save-and-quit-modal">Save and Quit</button>
+              </div>
+              <div class="col-sm-2 col-sm-push-2">
+                <button id="submit-button" type="button" class="s-buttons btn btn-lg btn-block" data-toggle="modal" data-target="#submit-modal">Submit</button>
+              </div>
+
+              <div class="col-sm-2 col-sm-push-4">
+                <button id="next-button" type="button" class="btn btn-lg btn-block">Next Question</button>
+              </div>
+            </div>
+
+            <!-- <div class="row">
+              <div class="col-sm-2 col-sm-push-5">
+                <button id="submit-button" type="button" class="btn btn-lg btn-block" data-toggle="modal" data-target="#submit-modal" style="margin-top:20px">Submit</button>
+              </div>
+            </div> -->
+
+        </div>
+
+
+      </div>
+  </div>
+
+  <div id="save-and-quit-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="text-align:center"></h4>
+        </div>
+        <div class="modal-body">
+          <p style="text-align: center">Do you want to save and quit?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default modal-buttons" data-dismiss="modal" style="float:left">No</button>
+          <button id="yes-save" type="button" class="btn btn-default modal-buttons" style="float: right">Yes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="submit-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="text-align:center">Submission</h4>
+        </div>
+        <div class="modal-body">
+          <p style="text-align:center"></p>
+          <p style="text-align: center">You have attempted <span class="percent" style="color:#F25F5C"></span> of the assignment.<br />Are you sure you want to submit your assignment?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default modal-buttons" data-dismiss="modal" style="float:left">No</button>
+          <button id="yes-submit" type="button" class="btn btn-default modal-buttons" style="float: right">Yes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+
+</html>

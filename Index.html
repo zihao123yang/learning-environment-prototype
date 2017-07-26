@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/assignmentStyleSheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/assignmentPageJS.js"></script>
+
+</head>
+
+<body>
+  <nav id="myNavBar" class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-right">
+        <li><p class="navbar-text">TROY</p></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user glyphicon-ring" aria-hidden="true"></span><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Activity</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul id="file-hierarchy" class="nav navbar-nav navbar-left">
+        <li><p class="navbar-text"><a href="#">Home </a><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></p></li>
+        <li><p class="navbar-text" style="margin-left:0">Assignment 2</p></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="jumbotron heading">
+    <h1 class="assignment-name">Assignment 2: St. Peter's Square</h1>
+    <p>Due: 28/05/17</p>
+    <p><span class="attempted">Attempted: 87%</span></p>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="jumbotron case">
+          <h2 class="bold" style="text-align: center; font-size: 30px">Case:</h2>
+          <p class= "text">
+            Designed and built by Bernini between 1656 and 1667, during the pontificate of Alexander VII (1655-1667), the square is made up of two different areas. The first has a trapezoid shape, marked off by two straight closed and convergent arms on each side of the church square. The second area is elliptical and is surrounded by the two hemicycles of a four-row colonnade, because, as Bernini said, “considering that Saint Peter’s is almost the matrix of all the churches, its portico had to give an open-armed, maternal welcome to all Catholics, confirming their faith; to heretics, reconciling them with the Church; and to the infidels, enlightening them about the true faith.” Bernini had in fact designed a three-armed portico, but after Alexander VII’s death, construction of the portico was halted, and the third arm was never built. It would have enclosed the whole building and separated the ellipse from the “Borgo” quarter, thus creating a “surprise effect” for the pilgrim who suddenly found himself in the square. This effect was somewhat achieved by the buildings surrounding the square, the so-called “Spina di Borgo”, which naturally “closed in” the square. In 1950, Via della Conciliazione, a new, wide street leading to the Vatican Basilica, was opened. It amplifies the majestic view of Saint Peter’s dome, but it also profoundly modified Bernini’s original plan. The measurements of the square are impressive: it is 320 m deep, its diameter is 240 m and it is surrounded by 284 columns, set out in rows of four, and 88 pilasters. Around the year 1670, Bernini’s pupils built 140 statues of saints, 3.20 m high along the balustrade above the columns. On either side of the obelisk, which was moved to the middle of the square by Domenico Fontana in 1585, are two great fountains built by Bernini (1675) and Maderno (1614). Below, at the foot of the staircase in front of the basilica, the statues of Saint Peter and Saint Paul seem to welcome visitors.
+          </p>
+          <p class="text-center" style="margin-top:40px"><a class="btn btn-primary btn-lg" href="#" role="button">More Information</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row nav-buttons">
+      <div class="row">
+        <div class="col-sm-2 col-sm-offset-5">
+          <button id="toQuestion" type="button" class="btn btn-lg btn-block">Questions</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 col-sm-offset-5">
+          <button id="yourFeedback" type="button" class="btn btn-lg btn-block" disabled>See Your Feedback</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 col-sm-offset-5">
+          <button id="giveFeedback" type="button" class="btn btn-lg btn-block" disabled>Give Feedback</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="snackbar">
+    SAVED!
+  </div>
+  <div id="submitted">
+    SUBMITTED!
+  </div>
+</body>
+
+</html>
